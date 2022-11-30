@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div{
+            width: 400px;
+            text-align: center;
+            border: 1px solid black;
+            height: 500px;  
+        }
+        #input{
+            border: 1px solid black;
+            width: 200px;
+            height: 50px;
+            padding: 5px;
+        }
+        #username{
+        width: 250px;
+        height: 15px;
+        padding: 5px;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        }
+        span{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+    
+        }
+        btn{
+            border: 1px solid black;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    
+</body>
+<script>
+    var div = document.createElement("div");
+    div.setAttribute("id","div");
+    document.body.appendChild(div);
+
+    var h2 = document.createElement("h2");
+    h2.innerHTML = "FORM";
+    div.appendChild(h2);
+
+    var span = document.createElement("span");
+    span.innerHTML = "UserName:";
+    div.appendChild(span);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+    
+    var input = document.createElement("input");
+    input.setAttribute("type","text");
+    input.setAttribute("id","username");
+    input.setAttribute("placeholder","Enter your UserName");
+    span.appendChild(input);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "FatherName:";
+    div.appendChild(span);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","text");
+    input.setAttribute("id","username");
+    input.setAttribute("placeholder","Enter your FatherName");
+    span.appendChild(input);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "Email:";
+    div.appendChild(span);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","text");
+    input.setAttribute("id","username");
+    input.setAttribute("placeholder","Enter your email");
+    span.appendChild(input);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "password:";
+    div.appendChild(span);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","text");
+    input.setAttribute("id","username");
+    input.setAttribute("placeholder","Enter your password");
+    span.appendChild(input);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "contact number:";
+    div.appendChild(span);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","number");
+    input.setAttribute("id","username");
+    input.setAttribute("placeholder","Enter your contact number");
+    span.appendChild(input);
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "Gender:";
+    div.appendChild(span);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","radio");
+    input.setAttribute("id","Male");
+    input.setAttribute("name","Gender");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "Male";
+    label.setAttribute("for","Male");
+    span.appendChild(label);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","radio");
+    input.setAttribute("id","female");
+    input.setAttribute("name","Gender");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "feMale";
+    label.setAttribute("for","Female")
+    span.appendChild(label);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","radio");
+    input.setAttribute("id","others");
+    input.setAttribute("name","Gender");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "Others";
+    label.setAttribute("for","Others");
+    span.appendChild(label);
+    
+    // 2skill
+
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var span = document.createElement("span");
+    span.innerHTML = "Skill:";
+    div.appendChild(span);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","checkbox");
+    input.setAttribute("id","html");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "Html";
+    label.setAttribute("for","html");
+    span.appendChild(label);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","checkbox");
+    input.setAttribute("id","css");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "Css";
+    label.setAttribute("for","css");
+    span.appendChild(label);
+
+    var input = document.createElement("input");
+    input.setAttribute("type","checkbox");
+    input.setAttribute("id","java");
+    span.appendChild(input);
+
+    var label = document.createElement("label");
+    label.innerHTML = "Java";
+    label.setAttribute("for","java");
+    span.appendChild(label);
+
+    // 3submit
+    
+    var br = document.createElement("br");
+    span.appendChild(br);
+
+    var btn = document.createElement("button");
+    btn.innerHTML = "Submit";
+    btn.setAttribute("id","btn");
+    span.appendChild(btn)
+    
+</script>
+</html>
